@@ -1,7 +1,5 @@
 
 
-
-
 .navbar .navbar-nav .nav-link {
     color: black;
     font-size: 1.1em;
@@ -18,12 +16,7 @@
 
 #landing {
     margin-top: 20px; 
-    background-image: url('./image/room.png'); /* Replace with the actual path to your background image */
-    background-size: cover; /* This makes the background cover the entire div */
-    background-position: center; /* This centers the background image */
-    padding: 50px 0; /* This adds some padding to the top and bottom of the section */
-    color: white; /* This sets the text color to white for better contrast */
-}
+    
 }
 
 #name{
@@ -35,7 +28,7 @@
 	width: 200px;
 	border-radius: 100px;
 	display: block;
-  margin-left: auto;
+  	margin-left: auto;
  	margin-right: auto;
 
 }
@@ -49,8 +42,6 @@
     margin: 10px;
   
 }
-
-
         
 .contact-map {
     border: 0;
