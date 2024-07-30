@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -77,18 +78,18 @@
 }
 
 .tools-section {
-            background-color: none;
-            color: white;
-            padding: 200px 0;
+    background-color: none;
+    color: white;
+    padding: 200px 0;
         }
 .tools-section h2 {
-            margin-bottom: 30px;
+    margin-bottom: 30px;
         }
 
 .tool-icons img {
-            max-width: 50px;
-            margin: 10px;
-            max-width: 50px
+    max-width: 50px;
+    margin: 10px;
+    max-width: 50px
         }
 
 .contact-button {
@@ -96,38 +97,40 @@
   }
 
 #contact-section {
-        display: flex;
-        flex-wrap: wrap;
-        background-color: rgba(255, 242, 228, 1);
-        border-top: 3px solid #c3a55e;
-        border-bottom: 3px solid #c3a55e; 
-        margin-left:0px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 242, 228, 1);
+    border-top: 3px solid #c3a55e;
+    border-bottom: 3px solid #c3a55e; 
+    margin-left:0px;
 
 }
 
 .tool-icons{
 	 width: 135px;
-        height: 132px;
-        opacity: 0px;
+    height: 132px;
+    opacity: 0px;
 }
 
-
 #button {
-            background-color: rgba(181, 144, 102, 1);
-
-            color: white;
-            float:right;
-            border-radius: 20px;
-            margin-bottom: 20px;
+    background-color: rgba(181, 144, 102, 1);
+    color: white;
+    float:right;
+    border-radius: 20px;
+    margin-bottom: 20px;
           }
 
-#footer {
-            
-            display: absolute;
-            bottom: 0;
-            background-color: skyblue;
-            color: white;  
-        }
+.footer a {
+      color: white; 
+    }
+.footer a:hover {
+      text-decoration: underline; 
+    }
 
-        
+.bg-skyblue {
+    background-color: skyblue; 
+  }
+
+
+
         
