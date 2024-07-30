@@ -1,4 +1,9 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .navbar .navbar-nav .nav-link {
     color: black;
@@ -16,20 +21,30 @@
 
 #landing {
     margin-top: 20px; 
-    
+    margin-bottom: 100px; 
+}
 }
 
 #name{
     font-family: Montserrat;
     font-weight: 500;
+    color: white ;
     }
+
 #image-profile{
 	height: 200px;
 	width: 200px;
 	border-radius: 100px;
 	display: block;
-  	margin-left: auto;
+    margin-left: auto;
  	margin-right: auto;
+    border-color: black;
+    margin: 0 auto 20px;
+}
+
+#aboutme{
+    padding: 20px;
+    color: white;
 
 }
 
@@ -42,7 +57,11 @@
     margin: 10px;
   
 }
-        
+
+.contact-section {
+    margin-top: 40px; 
+}
+
 .contact-map {
     border: 0;
     width: 100%;
@@ -52,23 +71,25 @@
     margin-top: 20px;
         }
 
+
 /*Projects*/
 .card-img-top{
     height: 200px;
 }
 
-
 .tools-section {
-            background-color: #5d6165;
+            background-color: none;
             color: white;
             padding: 200px 0;
         }
 .tools-section h2 {
             margin-bottom: 30px;
         }
+
 .tool-icons img {
             max-width: 50px;
             margin: 10px;
+            max-width: 50px
         }
 
 .contact-button {
