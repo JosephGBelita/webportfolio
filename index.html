@@ -20,7 +20,14 @@
     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     	</script> 
-
+         <style>
+        body {
+            background-image: url('./images/room.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
 		<title>Joseph Gabriel Belita | My portfolio</title>
 	</head>
 	<body>
@@ -37,7 +44,7 @@
         <ul class="navbar-nav mx-auto">
 
 
-            <a class="navbar-brand d-none d-lg-block" href="landing">My Portfolio</a>
+            <a class="navbar-brand d-none d-lg-block" href="#landing">My Portfolio</a>
             <li class="nav-item">
                 <a class="nav-link" href="#landing">Home</a>
             </li>
@@ -63,12 +70,12 @@
 
 <!-- Home -->
 
-		<div id = "landing">
-			<img src="./images/me.jpg" id="image-profile" align = "center">
+		<div id = "landing" class = "text-center mt-5">
+			<img src="./images/me.jpg" id="image-profile" class="mb-4" align = "center">
 
 		<h1 align="center" id = "name">Joseph Gabriel Belita</h1>
         <h3 align="center" id = "title">Full Stack Web Developer</h3>
-        <p align="center">Hi! My name is Joseph. You can call me Gab. I decided to code again because I want to create and design websites. </p>
+        <p align="center" id = "aboutme">Hi! My name is Joseph Gabriel Belita. I can describe myself as an introvert type of person but you can rely on me when you need help. I have a background in programming but I decided not to pursue it after I graduated. I enrolled in Zuitt because I want to learn more about the new trends in the IT industry. I believe that being a programmer is the career for me. I will do my best!  </p>
        
 
 		</div>
@@ -77,10 +84,10 @@
 			<!--  Projects -->
 <section id = "projects" class="portfolio-section">
     <div class="container">
-        <h2 align = "center">My Projects</h2>
+        <h2 class = "text-center">My Projects</h2>
         <div class="row">
             <div class="col-md-4">
-                <div class="card">
+                <div class="card text-center">
                     <img src="./images/student.jpg" class="card-img-top" >
                     <div class="card-body">
                         <h5 class="card-title">Student Attendance System</h5>
@@ -90,7 +97,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
+                <div class="card text-center">
                     <img src="./images/gamedev.jpg" class="card-img-top" >
                     <div class="card-body">
                         <h5 class="card-title">Game Development</h5>
@@ -100,7 +107,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
+                <div class="card text-center">
                     <img src="./images/arduino.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Arduino Light Sensor</h5>
@@ -114,8 +121,6 @@
 </section>
 
 <!-- Tools -->
-
-
   <div id = "tools" class="container tools-section text-center">
         <h2>Tools</h2>
         <div class="row justify-content-center mb-5">
@@ -148,17 +153,12 @@
             </div>
         </div>
     </div>
-	</div>
+    </div>
+
 
 
 <!-- Contact Section -->
-
-
-
-  
- 
-              
-<div id = "contacts" class="container contact-section">
+<div id = "contacts" class="container contact-section mt-5">
 <h2 align = "center">Contact</h2>
        <div class="contact-icons" align = "center">         
         <a href="https://www.facebook.com" target="_blank">
@@ -174,7 +174,7 @@
         </a>
 
     
-<div class="container mb-5 p-5"">
+<div class="container mb-5 p-5 bg-white">
         <div class="row" align ="left">
             <div class="col-md-6 p-0">
                 <h3>Visit Us</h3>
