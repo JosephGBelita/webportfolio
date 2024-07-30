@@ -1,0 +1,122 @@
+
+
+
+
+.navbar .navbar-nav .nav-link {
+    color: black;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+}
+
+#title{
+  color: violet;
+  font-family: Montserrat;
+}
+
+
+#landing {
+    margin-top: 20px; 
+    background-image: url('./image/room.png'); /* Replace with the actual path to your background image */
+    background-size: cover; /* This makes the background cover the entire div */
+    background-position: center; /* This centers the background image */
+    padding: 50px 0; /* This adds some padding to the top and bottom of the section */
+    color: white; /* This sets the text color to white for better contrast */
+}
+}
+
+#name{
+    font-family: Montserrat;
+    font-weight: 500;
+    }
+#image-profile{
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	display: block;
+  margin-left: auto;
+ 	margin-right: auto;
+
+}
+
+.contact-section {
+  padding: 50px 0;  
+    }
+
+.contact-icons img {
+    max-width: 30px;
+    margin: 10px;
+  
+}
+
+
+        
+.contact-map {
+    border: 0;
+    width: 100%;
+    height: 300px;
+        }
+.form-container {
+    margin-top: 20px;
+        }
+
+/*Projects*/
+.card-img-top{
+    height: 200px;
+}
+
+
+.tools-section {
+            background-color: #5d6165;
+            color: white;
+            padding: 200px 0;
+        }
+.tools-section h2 {
+            margin-bottom: 30px;
+        }
+.tool-icons img {
+            max-width: 50px;
+            margin: 10px;
+        }
+
+.contact-button {
+    margin-top: 20px;
+  }
+
+#contact-section {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgba(255, 242, 228, 1);
+        border-top: 3px solid #c3a55e;
+        border-bottom: 3px solid #c3a55e; 
+        margin-left:0px;
+
+}
+
+.tool-icons{
+	 width: 135px;
+        height: 132px;
+        opacity: 0px;
+}
+
+
+#button {
+            background-color: rgba(181, 144, 102, 1);
+
+            color: white;
+            float:right;
+            border-radius: 20px;
+            margin-bottom: 20px;
+          }
+
+#footer {
+            
+            display: absolute;
+            bottom: 0;
+            background-color: skyblue;
+            color: white;  
+        }
+
+        
+        
