@@ -16,7 +16,7 @@ background-attachment: fixed;
 /*Navbar*/
 /*My Portfolio*/
 .navbar-brand {
-    padding-left: 20px;
+padding-left: 20px;
 }
 
 .navbar-nav {
@@ -44,7 +44,7 @@ background-attachment: fixed;
 .navbar-toggler {
     background-color: #58a1c4; 
     border: none; 
-    margin-right: 10px
+    margin-right: 10px;
 }
 
 .nav-link {
