@@ -44,6 +44,7 @@ background-attachment: fixed;
 .navbar-toggler {
     background-color: #58a1c4; 
     border: none; 
+    margin-right: 10px
 }
 
 .nav-link {
@@ -127,7 +128,7 @@ background-attachment: fixed;
     color: black;
     border: 1px solid #ccc; 
     border-radius: 100px;
-    width: 250px; 
+    width: 180px; 
     height: 70px;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -135,12 +136,21 @@ background-attachment: fixed;
     background-color: skyblue;
   
 }
+.card {
+    border: 2px solid #ddd; 
+    border-radius: 8px;
+    margin-bottom: 20px; 
+    padding: 15px; 
+    transition: box-shadow 0.3s ease; 
+}
 
+  /*Tools */
 .tools-section {
             background-color: none;
             color: white;
             padding: 200px 0;
         }
+
 .tools-section h2 {
             margin-bottom: 100px;
         }
@@ -152,7 +162,7 @@ background-attachment: fixed;
         }
 
 .tool-icons{
-     width: 135px;
+    width: 135px;
     height: 132px;
     opacity: 0px;
 }
@@ -160,6 +170,7 @@ background-attachment: fixed;
 .toolsFont{
     color:orange;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 /*Contacts*/
@@ -214,15 +225,10 @@ background-attachment: fixed;
     border: 0; 
 }
 
-/* Style for the submit button */
+
 .contact-button {
-    margin-top: 10px; /* Adds space above the submit button */
+    margin-top: 10px; 
 }
-
-
-
-
-
 
 .contact-section {
     margin-top: 40px; 
@@ -239,7 +245,6 @@ background-attachment: fixed;
           }
 
 /*Footer*/
-
 #footer {
             
             display: absolute;
